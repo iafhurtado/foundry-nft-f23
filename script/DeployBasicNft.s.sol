@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.19;
 
-import {Script} from "forge-std/Script.sol";
+import {Script} from "../lib/forge-std/src/Script.sol";
 import {BasicNft} from "../src/BasicNft.sol";
-import {console} from "forge-std/console.sol";
+import {console} from "../lib/forge-std/src/console.sol";
 
 contract DeployBasicNft is Script {
     uint256 public DEFAULT_ANVIL_PRIVATE_KEY =

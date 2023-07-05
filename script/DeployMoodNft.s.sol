@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.19;
 
-import {Script} from "forge-std/Script.sol";
+import {Script} from "../lib/forge-std/src/Script.sol";
 import {MoodNft} from "../src/MoodNft.sol";
 import {Base64} from "@openzeppelin/contracts/utils/Base64.sol";
-import {console} from "forge-std/console.sol";
+import {console} from "../lib/forge-std/src/console.sol";
 
 contract DeployMoodNft is Script {
     uint256 public DEFAULT_ANVIL_PRIVATE_KEY =
